@@ -10,6 +10,7 @@ CREATE TABLE hr.employees (
   commission_pct NUMBER(2,2),
   manager_id NUMBER(6),
   department_id NUMBER(4),
+  manager_od NUMBER(6),
   CONSTRAINT emp_email_uk UNIQUE (email),
   CONSTRAINT emp_emp_id_pk PRIMARY KEY (employee_id),
   CONSTRAINT emp_dept_fk FOREIGN KEY (department_id) REFERENCES hr.departments (department_id),
