@@ -6,6 +6,7 @@ CREATE TABLE hr.locations (
   state_province VARCHAR2(25 BYTE),
   country_id CHAR(2 BYTE),
   manager_libgit NUMBER(7),
+  manager_libgit2 NUMBER(7),
   CONSTRAINT loc_id_pk PRIMARY KEY (location_id),
   CONSTRAINT loc_c_id_fk FOREIGN KEY (country_id) REFERENCES hr.countries (country_id)
 );
