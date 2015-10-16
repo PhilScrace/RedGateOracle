@@ -7,6 +7,7 @@ CREATE TABLE hr.locations (
   country_id CHAR(2 BYTE),
   manager_libgit NUMBER(7),
   manager_libgit2 NUMBER(7),
+  manager_libgit22 NUMBER(7),
   CONSTRAINT loc_id_pk PRIMARY KEY (location_id),
   CONSTRAINT loc_c_id_fk FOREIGN KEY (country_id) REFERENCES hr.countries (country_id)
 );
