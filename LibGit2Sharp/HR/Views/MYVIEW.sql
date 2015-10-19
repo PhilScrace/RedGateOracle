@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE VIEW hr.myview (blue,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) AS
+Select "EMPLOYEE_ID" as "BLUE","FIRST_NAME","LAST_NAME","EMAIL","PHONE_NUMBER","HIRE_DATE","JOB_ID","SALARY","COMMISSION_PCT","MANAGER_ID","DEPARTMENT_ID" from hr.Employees;

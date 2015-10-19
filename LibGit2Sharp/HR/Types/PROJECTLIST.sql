@@ -1,0 +1,2 @@
+CREATE OR REPLACE TYPE hr.ProjectList AS VARRAY(50) OF Project;
+/
