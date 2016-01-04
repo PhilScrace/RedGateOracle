@@ -1,0 +1,11 @@
+GRANT SELECT ON phil.i18n_key_codes TO "PUBLIC";
+GRANT INSERT ON phil.i18n_key_codes TO "PUBLIC";
+GRANT UPDATE ON phil.i18n_key_codes TO "PUBLIC";
+GRANT DELETE ON phil.i18n_key_codes TO "PUBLIC";
+GRANT DEBUG ON phil.i18n_key_codes TO "PUBLIC";
+GRANT REFERENCES ON phil.i18n_key_codes TO "PUBLIC";
+GRANT ALTER ON phil.i18n_key_codes TO "PUBLIC";
+GRANT INDEX ON phil.i18n_key_codes TO "PUBLIC";
+GRANT FLASHBACK ON phil.i18n_key_codes TO "PUBLIC";
+GRANT QUERY REWRITE ON phil.i18n_key_codes TO "PUBLIC";
+GRANT ON COMMIT REFRESH ON phil.i18n_key_codes TO "PUBLIC";
